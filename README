@@ -1,0 +1,11 @@
+* The following libaries should be installed in your Linux-based system.
+	 - libgsl0-dev
+	 - libboost-regex1.48.0
+
+Ubuntu use:sudo apt-get install <lib_name> 
+
+* The liberty parser (parser for .lib files) has already been built for a 64-bit architecture.
+
+* In order to build the the CCSopt tool just type "make" in a Linux shell locating at the directory where the Makefile resides. 
+
+Try chmod 777 *.sh
