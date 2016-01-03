@@ -9,3 +9,9 @@ Ubuntu use:sudo apt-get install <lib_name>
 * In order to build the the CCSopt tool just type "make" in a Linux shell locating at the directory where the Makefile resides. 
 
 Try chmod 777 *.sh
+
+Run:
+
+./CCSopt <lib_file.lib> <main module> <output path> <config_file.cfg> [parasitics_file.spef] <verilog_file-1.v> [verilog_file-2.v ... verilog_file-n.v]
+
+Arguments in square brackets are optional.
